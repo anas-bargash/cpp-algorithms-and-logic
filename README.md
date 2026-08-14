@@ -17,17 +17,3 @@ To compile and run any `.cpp` file locally using GCC:
 ```bash
 g++ -o output filename.cpp
 ./output
-
-
-## 📊 Expected Output
-
-```text
---- Training Neural Network on XOR Problem From Scratch ---
-
-Training Complete! Model Evaluation Results:
--------------------------------------------
-Input: {0, 0} | Expected: 0 | Predicted: 0.03512 -> Classified as: 0
-Input: {0, 1} | Expected: 1 | Predicted: 0.96241 -> Classified as: 1
-Input: {1, 0} | Expected: 1 | Predicted: 0.95883 -> Classified as: 1
-Input: {1, 1} | Expected: 0 | Predicted: 0.04105 -> Classified as: 0
-
